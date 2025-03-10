@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="basketball.css">
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+            </style>
+    </head>
+    <body>
+        <div class="container">
+            <div>
+                <h3>HOME</h3>
+                <div class="count-board">
+                    <h2 id="hoop-el">0</h2>
+                </div>
+                <div>
+                    <button onclick="score1()">+1</button>
+                    <button onclick="score2()">+2</button>
+                    <button onclick="score3()">+3</button>
+                </div>
+            </div>
+
+            <div>
+                <h3>GUEST</h3>
+                <div class="count-board">
+                    <h2 id="hoop-2">0</h2>
+                    </div>
+                <div>
+                    <button onclick="score4()">+1</button>
+                    <button onclick="score5()">+2</button>
+                    <button onclick="score6()">+3</button>
+                </div>
+            </div>
+        <script src="basketball.js"></script>
+    </body>
+</html>
+
+<!--Create divs for each scoreboard that includes each element so they can all be aligned in 2 columns-->
+<!--Add js script in the body and not the head-->
